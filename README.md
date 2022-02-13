@@ -5,15 +5,15 @@ Does edge detection and selects the most appropriate characters.
 
 
 <p align="center">
-  <img src="https://github.com/JuliaPoo/AsciiArtist/rsrc/skykid.png" alt = "Blue Tit">
+  <img src="https://raw.githubusercontent.com/JuliaPoo/AsciiArtist/main/rsrc/skykid.jpg" alt = "Blue Tit">
 </p>
 
 <p align="center">
-  <img src="https://github.com/JuliaPoo/AsciiArtist/rsrc/bluetit.png" alt = "Blue Tit">
+  <img src="https://raw.githubusercontent.com/JuliaPoo/AsciiArtist/main//rsrc/bluetit.jpg" alt = "Blue Tit">
 </p>
 
 <p align="center">
-  <img src="https://github.com/JuliaPoo/AsciiArtist/rsrc/niko.png" alt = "Niko from oneshot!">
+  <img src="https://raw.githubusercontent.com/JuliaPoo/AsciiArtist/main//rsrc/niko.jpg" alt = "Niko from oneshot!">
 </p>
 
 ## Installing

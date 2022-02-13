@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "asciiartist"
-version = "0.1.0"
+version = "0.4.0"
 description = "An ascii art generator that's actually good. Does edge detection and selects the most appropriate characters."
 readme = "README.md"
 repository = "https://github.com/JuliaPoo/AsciiArtist"
