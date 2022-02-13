@@ -147,7 +147,8 @@ def _get_edges(
         .resize((int(nx//weight+.5), int(ny//weight+.5)), Image.NEAREST),
         dtype=np.uint8)
 
-    edges = feature.canny(img, sigma=sigma)
+    edges = feature.canny(img, sigma=sigma) \
+        [3:-3,3:-3] # Remove border (scikit-image bug)
     edges = np.array(
         Image.fromarray(edges)
         .resize((nx, ny), Image.NEAREST)
