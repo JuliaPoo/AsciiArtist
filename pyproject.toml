@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "asciiartist"
+version = "0.1.0"
+description = "An ascii art generator that's actually good. Does edge detection and selects the most appropriate characters."
+readme = "README.md"
+repository = "https://github.com/JuliaPoo/AsciiArtist"
+authors = ["Julia <julia.poo.poo.poo@gmail.com>"]
+license = "MIT"
+
+packages = [
+    { include = "asciitrace" }
+]
+
+include = [
+    "./asciiartist/gen/**"
+]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+scikit-image = "*"
+matplotlib = "*"
+tflite-runtime = "*"
+
+[tool.poetry.dev-dependencies]
+tensorflow = "2.*"
+scikit-learn = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
