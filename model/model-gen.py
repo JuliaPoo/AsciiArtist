@@ -142,7 +142,8 @@ def main():
 
     FONT_SIZE = 35
     FONT_PATH = r"fonts\consola.ttf"
-    CHARS = "74ovcOYCTUVHFEKIL!\"#\'()*+,-./:;<=>@[\\]^_`{|}~ "
+    import string
+    CHARS = string.printable[:-5]
     PAD = 0
 
     dg = DataGen(FONT_SIZE, FONT_PATH, CHARS, PAD, 64)
