@@ -137,7 +137,7 @@ def _get_edges(
     y, x = img.shape[:2]
     width = int(x/y*height*ratio+.5)
     
-    ph,pw = 88,35
+    ph,pw = 35,14
 
     # Resize image
     ny = ph*height
@@ -223,7 +223,7 @@ def display_edges(
 def asciiartist(
     img: 'Image', 
     n_lines: int, 
-    noise_reduction: float = 3, 
+    noise_reduction: float = 2, 
     line_weight: float = 1, 
     text_ratio: float = 2.5,
     _generate_ascii: bool = True
@@ -245,7 +245,7 @@ def asciiartist(
 
     noise_reduction: float, optional
         Noise reduction param for canny edge detection
-        (Default 3.)
+        (Default 2.)
 
     line_weight: float, optional
         Line weight. A higher value thickens the edges

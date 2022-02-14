@@ -140,7 +140,7 @@ def main():
     import os
     os.path.dirname(__file__)
 
-    FONT_SIZE = 88
+    FONT_SIZE = 35
     FONT_PATH = r"fonts\consola.ttf"
     CHARS = "74ovcOYCTUVHFEKIL!\"#\'()*+,-./:;<=>@[\\]^_`{|}~ "
     PAD = 0

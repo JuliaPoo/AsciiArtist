@@ -43,7 +43,7 @@ img = Image.open("niko.png")
 art, edges = asciiartist(
     img, # The image!
     30,  # Number of lines of the output ascii art
-    noise_reduction=3,  # Level of noise reduction (optional)
+    noise_reduction=2,  # Level of noise reduction (optional)
     line_weight=1,      # Weight of the lines to draw (optional)
     text_ratio=2.2      # Height/width ratio of each character (optional)
 )
