@@ -48,7 +48,7 @@ class DataGen:
             width_shift_range=(-x, x),
             height_shift_range=(-x, x),
             rotation_range=5,
-            zoom_range=(0.9, 1.3),
+            zoom_range=(0.9, 1.1),
             #shear_range = 0.5,
             fill_mode="constant", cval=0
         )
